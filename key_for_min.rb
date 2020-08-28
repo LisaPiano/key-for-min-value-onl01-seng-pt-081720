@@ -7,5 +7,5 @@ require "pry"
 def key_for_min_value(ikea)
 
 binding.pry
-    
+
 end
