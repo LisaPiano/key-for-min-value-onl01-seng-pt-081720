@@ -4,8 +4,18 @@
 
 require "pry"
 
-def key_for_min_value(ikea)
+def key_for_min_value(hash)
+  hash.each do |name, number|
+min_key = nil
+min_value = nil
 
-binding.pry
+if number < min_value 
+  min_value = number 
+  min_key = name
+end
+
+  end
+min_key
+# binding.pry
 
 end
