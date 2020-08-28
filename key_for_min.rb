@@ -15,10 +15,6 @@ def key_for_min_value(ikea)
     else
       puts "mattress"
 
-
-
-
   end
   end
-
 end
